@@ -93,3 +93,133 @@ a:hover::after {
 }
 
 /*paramètres par ordre d'apparition*/
+header{
+  height: 100vh;
+  position: relative;
+  margin: 2vw 2vw 0;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  font-size: calc(2rem + 8vw);
+  margin-top: 70px;
+  font-family: "font-bold", serif;
+  letter-spacing: 6px;
+  color: #fefeff;
+}
+header h2{
+  font-size: calc(1rem + 6.5vw);
+  margin: 18px 0;
+  text-align: left;
+}
+.scroll-wrapper{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3.5vw;
+  color: rgb(217, 217, 217);
+  font-size: calc(0.8rem + 0.5vw);
+}
+.about{
+  margin: 400px 0 250px;
+}
+.img1 {
+  background: url(./assets/img/dev.avif) top/cover;
+}
+.h2-wrapper {
+  mix-blend-mode: exclusion;
+  margin: -190px 0 200px;
+}
+.about p {
+  width: 70%;
+  min-width: 280PX;
+  text-align: center;
+  margin: 0 auto;
+  line-height: calc(7px + 4.5vw);
+  font-size: calc(1rem + 1vw);
+  letter-spacing: 1px;
+}
+.skills{
+  margin: 200px 0 250px;
+}
+.skills h2{
+  margin-bottom: 150px;
+}
+.skills .wrapper {
+  margin: 30px 0;
+}
+.skills .appear{
+  text-align: center;
+}
+.skills p{
+  font-size: calc(1rem + 6vw);
+  font-family: "font-bold", serif;
+  letter-spacing: 4px;
+  background: #000101;
+  color: #fefeff;
+  display: inline-block;
+  padding: 0 12px 12px;
+}
+.portfolio {
+  margin: 200px 0;
+}
+.projects-container{
+  margin-top: 100px;
+}
+.project{
+  position: relative;
+  width: 60vw;
+  max-width: 600px;
+  margin: 50px 5vw;
+}
+#p2{
+  margin: 0 6vw 0 auto ;
+}
+#p3{
+  margin-left: 8vw;
+}
+.project img{
+  transition: 0.4s ease-out;
+  width: 100%;
+}
+.project:hover img{
+  filter: brightness(20%);
+}
+.project:hover .project-infos{
+  opacity: 1;
+  transform: translateX(0);
+}
+.project-infos {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50px, -50%);
+  margin-left: 8vw;
+  transition: 0.4s ease-out;
+  opacity: 0;
+}
+.project-infos a {
+  font-size: calc(1rem + 3vw);
+}
+.project-infos p{
+  font-size: 2rem;
+  margin-top: 1.5vw;
+  color: #fefeff;
+}
+footer{
+  margin: 150px 0 120px;
+}
+footer p {
+  font-size: calc(1rem + 2vw);
+  margin: 25px 0;
+  text-align: center;
+}
+footer a {
+  font-family: "font-bold", serif;
+  color: #000101;
+  font-size: calc(1rem + 2vw);
+}
+.img2{
+  background: url(./assets/img/motion-tim-smiths-02.gif) center/cover;
+}

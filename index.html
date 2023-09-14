@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="is-smooth-scroll-compatible is-loaded is-ready has-scroll-init has-scroll-smooth">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>🚀 Portfolio | 👨‍💻 Julien LUC</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/lib/locomotive-scroll.min.css">
   </head>
-  <body>
-    <header>
+  <body data-scroll-container>
+    <header data-scroll>
       <div class="links">
         <a href="#portfolio">Portfolio</a>
         <a href="mailto:julien.luc77@gmail.com">Contact</a>
@@ -17,9 +18,9 @@
             <h1>Julien Luc</h1>
         </div>
       </div>
-      <div class="wrapper">
+      <div data-scroll data-scroll-repeat="true" class="wrapper" id="color">
         <div class="appear" id="h2-1">
-          <h2>Développeur</h2>
+          <h2>Développeur<br>Web Junior</h2>
         </div>
       </div>
       <div class="scroll-wrapper">
@@ -31,7 +32,7 @@
         <div class="img img1"></div>
       </div>
       <div class="h2-wrapper">
-        <h2>A propos</h2>
+        <h2>À propos</h2>
       </div>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse possimus laudantium magnam commodi distinctio recusandae. Distinctio, similique ab, eligendi nemo porro corporis voluptates ullam deleniti, repellat fugiat impedit illum veritatis.</p>
     </section>
@@ -138,5 +139,7 @@
         <div class="img img2"></div>
       </div>
     </footer>
+    <script src="./assets/lib/locomotive-scroll.min.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
