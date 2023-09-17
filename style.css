@@ -1,11 +1,11 @@
 /*Paramètres généraux*/
 @font-face {
   font-family: "font-reg";
-  src: url(../Projet-8-Portfolio/assets/fonts/PlayfairDisplay-Regular.ttf);
+  src: url(./assets/fonts/PlayfairDisplay-Regular.ttf);
 }
 @font-face {
   font-family: "font-bold";
-  src: url(../Projet-8-Portfolio/assets/fonts/PlayfairDisplay-ExtraBold.ttf);
+  src: url(./assets/fonts/PlayfairDisplay-ExtraBold.ttf);
 }
 *{
   padding: 0;
@@ -189,6 +189,10 @@ header h2{
   color: #fefeff;
   display: inline-block;
   padding: 0 12px 12px;
+}
+.cit{
+  font-weight: 900;
+  font-size: 50px;
 }
 .portfolio {
   margin: 200px 0;
