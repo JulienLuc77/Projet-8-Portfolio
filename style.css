@@ -27,7 +27,7 @@ body{
 h2{
   font-size: calc(3rem + 5vw);
   text-align: center;
-  color: rgb(217, 217, 217);
+  color: rgb(185, 185, 185);
   font-family:"font-bold", serif;
   letter-spacing: 3px;
 }
@@ -110,7 +110,28 @@ a:hover::after {
 .wrapper{
   perspective: 900px;
 }
-/*paramètres par ordre d'apparition*/
+.buttons{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 65vh; 
+}
+.button {
+  color: #000101;
+  font-size: 40px;
+  background-color:#dfdfdf;
+  width: 70vw;
+  height: 65px;
+  margin: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+model-viewer{
+  width: 300px;
+  height: 300px;
+}
+/*ordre d'apparition*/
 header{
   height: 100vh;
   position: relative;
@@ -150,7 +171,7 @@ header h2{
   font-size: calc(0.8rem + 0.5vw);
 }
 .about{
-  margin: 400px 0 250px;
+  margin: 400px 0 150px;
 }
 .img1 {
   background: url(./assets/img/Photoprofil.jpg) top/cover;
@@ -169,7 +190,7 @@ header h2{
   letter-spacing: 1px;
 }
 .skills{
-  margin: 200px 0 250px;
+  margin: 200px 0 -250px;
 }
 .skills h2{
   margin-bottom: 150px;
@@ -195,7 +216,7 @@ header h2{
   font-size: 50px;
 }
 .portfolio {
-  margin: 200px 0;
+  margin: 200px 0 -200px;
 }
 .projects-container{
   margin-top: 100px;
@@ -265,6 +286,15 @@ footer p {
 }
 #l3{
   transition-delay: 1.6s;
+}
+#l4{
+  transition-delay: 2s;
+}
+#l5{
+  transition-delay: 2.4s;
+}
+#l6{
+  transition-delay: 2.8s;
 }
 footer a {
   font-family: "font-bold", serif;
